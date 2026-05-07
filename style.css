@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
 * {
-  color: red;
   font-family: "Lato", sans-serif;
   padding: 0;
   margin: 0;
@@ -101,6 +100,11 @@ nav {
 
 }
 
+.about-me__info {
+  display: flex;
+  flex-direction: column;
+}
+
 .about-me__info--container {
   display: flex;
   flex-direction: column;
@@ -124,6 +128,10 @@ nav {
 
 .about-me__picture {
   width: 100%;
+  transform: scale(3.5);
+  padding-top: 24px;
+  padding-left: 8px;
+}
   
 
 
@@ -147,6 +155,5 @@ padding-top: 24px;
   color: #242424;
   text-decoration: none;
   padding: 0 16px;
-
 
 }
